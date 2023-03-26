@@ -1,3 +1,40 @@
 @tailwind base;
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold;
+  }
+  h2 {
+    @apply text-2xl font-bold;
+  }
+  h3 {
+    @apply text-xl font-bold;
+  }
+  .content h1, 
+  .content h2, 
+  .content h3, 
+  .content p, 
+  .content img {
+    @apply my-6;
+  }
+  .content ul {
+    @apply my-6 pl-5 list-disc;
+  }
+  .content ol {
+    @apply my-6 pl-5 list-decimal;
+  }
+  li {
+    @apply my-4;
+  }
+  @media (min-width: 768px) {
+    h1 {
+      @apply text-6xl font-bold;
+    }
+    h2 {
+      @apply text-4xl font-bold;
+    }
+  }
+}
+
 @tailwind components;
 @tailwind utilities;

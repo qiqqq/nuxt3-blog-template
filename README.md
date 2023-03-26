@@ -1,4 +1,4 @@
-# Nuxt 3 blogBlog with Tailwind CSS
+# Nuxt 3 blog template with Tailwind CSS
 
 ## Setup
 
