@@ -1,7 +1,7 @@
 ---
 title: The Benefits of Practicing Mindfulness Meditation
 author: John Doe
-avatar: https://i.pravatar.cc/40
+avatar: https://i.pravatar.cc/40?img=2
 date: Jun 16, 2023
 image: https://picsum.photos/1200/520?random=2
 excerpt: With roots in Buddhist meditation practices, mindfulness has gained popularity in recent years as a secular technique for cultivating present-moment awareness and mental clarity.
