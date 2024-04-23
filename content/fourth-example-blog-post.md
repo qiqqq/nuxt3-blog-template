@@ -4,7 +4,7 @@ author: John Doe
 avatar: https://i.pravatar.cc/40?img=4
 date: Jun 16, 2023
 image: https://picsum.photos/1200/520?random=1
-excerpt: Do you find yourself constantly putting off important tasks until the last minute? Do you struggle to stay focused and productive throughout the day? If so, you're not alone.
+description: Do you find yourself constantly putting off important tasks until the last minute? Do you struggle to stay focused and productive throughout the day? If so, you're not alone.
 ---
 Do you find yourself constantly putting off important tasks until the last minute? Do you struggle to stay focused and productive throughout the day? If so, you're not alone. Procrastination is a common problem that affects many people, but the good news is that there are strategies you can use to overcome it and become more productive.
 

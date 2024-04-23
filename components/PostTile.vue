@@ -23,7 +23,7 @@
           class="my-3"
           :class="{ 'md:my-6': isBig }"
         >
-          {{ post.excerpt }}
+          {{ post.description }}
         </p>
       </div>
       <div class="flex items-center">

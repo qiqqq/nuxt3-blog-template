@@ -4,7 +4,7 @@ Simple and minimalistic blog with Nuxt 3 and Tailwind CSS. Posts are stored in `
 
 Live version available on Vercel: https://nuxt3-blog-template.vercel.app
 
-Step-by-step build process described on DEV.to: https://dev.to/qiqqq/how-to-create-blog-with-nuxt-3-and-tailwind-css-3
+Step-by-step build process described on DEV.to: https://dev.to/qiqqq/create-minimalist-blog-with-nuxt-3-and-tailwind-css-1dm
 
 ## Setup
 
