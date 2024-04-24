@@ -9,16 +9,6 @@
   </div>
 </template>
 
-<script>
-import { defineComponent } from '@vue/composition-api'
-
-export default defineComponent({
-  async setup() {
-    const { data:posts } = await useAsyncData('posts', () => queryContent('/').find())
-
-    return {
-      posts
-    }
-  },
-})
+<script setup>
+const { data:posts } = await useAsyncData('posts', () => queryContent('/').find())
 </script>

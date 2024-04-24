@@ -37,20 +37,11 @@
   </div>
 </template>
 
-<script>
-import { defineComponent } from '@vue/composition-api'
+<script setup lang="ts">
+import type { MarkdownParsedContent } from '@nuxt/content/dist/runtime/types'
 
-export default defineComponent({
-  name: 'PostTile',
-  props: {
-    post: {
-      type: Object,
-      default: () => {}
-    },
-    isBig: {
-      type: Boolean,
-      default: false
-    }
-  },
-})
+const { post, isBig } = defineProps<{
+  post: MarkdownParsedContent
+  isBig: boolean
+}>()
 </script>

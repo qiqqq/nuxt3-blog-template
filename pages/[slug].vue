@@ -29,18 +29,6 @@
   </article>
 </template>
 
-<script>
-import { defineComponent } from '@vue/composition-api';
-import { useRoute } from "vue-router";
-
-export default defineComponent({
-  async setup() {
-    const route = useRoute()
-    const { data:post } = await useAsyncData('posts', () => queryContent(route.path).findOne())
-
-    return {
-      post
-    }
-  },
-})
+<script setup>
+const { data:post } = await useAsyncData('posts', () => queryContent(useRoute().path).findOne())
 </script>
