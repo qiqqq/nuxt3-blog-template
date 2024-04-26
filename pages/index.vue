@@ -11,4 +11,8 @@
 
 <script setup>
 const { data:posts } = await useAsyncData('posts', () => queryContent('/').find())
+
+useHead({
+  title: 'Blog',
+})
 </script>

@@ -30,5 +30,14 @@
 </template>
 
 <script setup>
-const { data:post } = await useAsyncData('posts', () => queryContent(useRoute().path).findOne())
+const getPost = async () => {
+  const { data } = await useAsyncData('posts', () => queryContent(useRoute().path).findOne())
+  return data
+}
+
+const post = await getPost();
+
+useHead({
+  title: post.value.title,
+})
 </script>
