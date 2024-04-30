@@ -2,7 +2,7 @@
 title: How to Overcome Procrastination and Boost Your Productivity
 author: John Doe
 avatar: https://i.pravatar.cc/40?img=4
-date: Jun 16, 2023
+date: Jun 15, 2023
 image: https://picsum.photos/1200/520?random=1
 description: Do you find yourself constantly putting off important tasks until the last minute? Do you struggle to stay focused and productive throughout the day? If so, you're not alone.
 ---

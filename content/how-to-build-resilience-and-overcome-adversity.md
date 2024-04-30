@@ -2,7 +2,7 @@
 title: How to Build Resilience and Overcome Adversity
 author: John Doe
 avatar: https://i.pravatar.cc/40?img=3
-date: Jun 16, 2023
+date: Jun 21, 2023
 image: https://picsum.photos/1200/520?random=3
 description: Life is full of ups and downs, and at some point, we all face adversity. Whether it's a difficult breakup, a job loss, or a health crisis, it's easy to feel overwhelmed and unsure of how to move forward.
 ---
