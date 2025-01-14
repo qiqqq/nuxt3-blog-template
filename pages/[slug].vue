@@ -29,7 +29,7 @@
 <script setup>
 const getPost = async () => {
   const { data } = await useAsyncData("posts", () =>
-    queryContent(useRoute().path).findOne(),
+    queryContent(useRoute().path).findOne()
   );
   return data;
 };
