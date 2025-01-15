@@ -5,7 +5,7 @@
   >
     <div class="px-4 lg:px-6" :class="{ 'md:w-2/3': isBig }">
       <a :href="post._path" :title="post.title">
-        <img :src="post.image" :alt="post.title" class="rounded block" />
+        <img :src="post.image" :alt="post.title" class="rounded block img-aspect-ratio" />
       </a>
     </div>
     <div class="px-4 lg:px-6" :class="{ 'md:w-1/3': isBig }">

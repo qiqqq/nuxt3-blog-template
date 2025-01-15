@@ -6,7 +6,11 @@
     <div class="my-8 text-center font-serif text-base text-gray">
       <time>{{ post.date }}</time> &mdash; {{ post.author }}
     </div>
-    <img :src="post.image" :alt="post.title" class="rounded block my-10" />
+    <img 
+      :src="post.image" 
+      :alt="post.title" 
+      class="rounded block my-10 img-aspect-ratio"
+    />
     <div class="max-w-3xl mx-auto my-8">
       <ContentRenderer class="content font-serif text-lg" :value="post" />
       <div class="sm:flex justify-between items-center mt-16">

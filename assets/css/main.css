@@ -34,6 +34,10 @@
       @apply text-4xl font-bold;
     }
   }
+  .img-aspect-ratio {
+    aspect-ratio: 1200 / 520; 
+    width: 100%;
+  }
 }
 
 @tailwind components;
