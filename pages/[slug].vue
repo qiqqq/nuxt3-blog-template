@@ -10,6 +10,7 @@
       :src="post.image" 
       :alt="post.title" 
       class="rounded block my-10 img-aspect-ratio"
+      loading="lazy"
     />
     <div class="max-w-3xl mx-auto my-8">
       <ContentRenderer class="content font-serif text-lg" :value="post" />
